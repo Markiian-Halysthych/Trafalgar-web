@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+body {
+    font-family: mulish;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto auto 100px;
+}
+
+@media (min-width: 2560px) {
+    body {
+        font-size: 25px;
+    }
+    .container {
+        max-width: 1800px;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    transition: .1s;
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.space {
+    padding: 11px;
+}
